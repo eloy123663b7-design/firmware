@@ -54,6 +54,7 @@ bool BruceTheme::openThemeFile(FS *fs, String filepath, bool overwriteConfigSett
         {"interpreter", &theme.interpreter, theme.paths.interpreter},
         {"clock",       &theme.clock,       theme.paths.clock      },
         {"others",      &theme.others,      theme.paths.others     },
+        {"sounds",      &theme.sounds,      theme.paths.sounds     },
         {"connect",     &theme.connect,     theme.paths.connect    },
         {"config",      &theme.config,      theme.paths.config     },
         {"boot_img",    &theme.boot_img,    theme.paths.boot_img   },
