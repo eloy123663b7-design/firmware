@@ -19,6 +19,7 @@ struct themeFiles {
     String nrf = "";
     String interpreter = "";
     String others = "";
+    String sounds = "";
     String clock = "";
     String connect = "";
     String config = "";
@@ -45,6 +46,7 @@ struct themeInfo {
     bool nrf = false;
     bool interpreter = false;
     bool others = false;
+    bool sounds = false;
     bool clock = false;
     bool connect = false;
     bool config = false;
