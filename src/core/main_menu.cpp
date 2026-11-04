@@ -9,6 +9,7 @@ MainMenu::MainMenu() {
         &bleMenu,
         &rfMenu,
         &nrf24Menu,
+        &soundsMenu,
 #if !defined(LITE_VERSION)
         &loraMenu,
 #endif
